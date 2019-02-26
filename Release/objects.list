@@ -1,0 +1,5 @@
+"CMSIS/core/core_cm3.o"
+"src/main.o"
+"src/syscalls.o"
+"src/system_stm32f10x.o"
+"startup/startup_stm32.o"

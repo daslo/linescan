@@ -1,6 +1,7 @@
 # linescan
 Using linear CCD sensor array with STM32 and Python
 
+This project is done with (great!) Eclipse-based Ac6 SW4STM32 IDE.
 Reading a linear CCD (Charge-Coupled Device) camera based on TSL1401CL IC with STM32F1 microprocessor.
 This code can be used to capture data and tell bright surfaces from dark ones (for example: line detection in line-follower).
 

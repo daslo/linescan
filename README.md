@@ -18,4 +18,4 @@ Results depend heavily on Systick period. If it's too high, the capacitors will 
 
 2. Data transmission
 
-The uC waits for a command to send data via UART (currently: it's waiting for any character on UART0). Upon detection it sends stored values. It has a 12-bit ADC, therefore each value is transmitted in 2 parts. 
+The uC waits for a command to send data via UART (currently: it's waiting for any character on UART0). Upon detection it sends stored values. It has a 12-bit ADC, therefore each value is transmitted in 2 parts. This data can be read and viewed by provided Python script (change device path in script and run it).
